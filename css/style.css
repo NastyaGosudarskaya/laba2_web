@@ -1,0 +1,105 @@
+body
+{
+	padding: 4vw;
+	background:url(../images/image.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+label
+{
+	font-family: Times, "Times New Roman", serif;
+	font-size: 1.5vw;
+	text-align: center;
+	color: #FFFFFF;
+	font-weight: 900;
+}
+textarea{
+	height: 100%;
+	width: 100%;
+	font-size: 1.4vw;
+}
+.before, .after{
+	display: inline-block;
+	height: 30vw;
+	width: 40vw;
+	margin-right: 2vw;
+}
+a.button{
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px #ddd inset, 0 1px 1px #fff;
+}
+a.sep:hover {
+  background: #dcdcdc linear-gradient(#fff, #dcdcdc);
+  box-shadow: 0 0 0 1px #aaa inset, 0 1px 1px #aaa;
+}
+a.color_but:hover {
+  opacity: .5;
+  box-shadow: 0 0 0 1px #aaa inset, 0 1px 1px #aaa;
+}
+.color{
+	display: inline-block;
+	margin-left: 2vw;
+}
+.color .red
+{
+	background: red;
+}
+.color .green
+{
+	background: green;
+}
+.color .blue
+{
+	background: blue;
+}
+.color .yellow
+{
+	background: yellow;
+}
+.wrap_for_properties
+{
+	background: rgb(237,237,237); 
+	padding: 1em 5px; 
+	width: 39.5vw; 
+	border: 1px solid grey;
+}
+a.button2 {
+  position: relative;
+  display: inline-block;
+  font-size: 90%;
+  font-weight: 700;
+  color: rgb(209,209,217);
+  text-decoration: none;
+  text-shadow: 0 -1px 2px rgba(0,0,0,.2);
+  padding: .5em 1em;
+  outline: none;
+  border-radius: 3px;
+  background: linear-gradient(rgb(110,112,120), rgb(81,81,86)) rgb(110,112,120);
+  box-shadow:
+   0 1px rgba(255,255,255,.2) inset,
+   0 3px 5px rgba(0,1,6,.5),
+   0 0 1px 1px rgba(0,1,6,.2);
+   float: right;
+   margin-right: 1vw;
+}
+a.button2:hover:not(:active) {
+  background: linear-gradient(rgb(126,126,134), rgb(70,71,76)) rgb(126,126,134);
+}
+a.button2:active {
+  top: 1px;
+  background: linear-gradient(rgb(76,77,82), rgb(56,57,62)) rgb(76,77,82);
+  box-shadow:
+   0 0 1px rgba(0,0,0,.5) inset,
+   0 2px 3px rgba(0,0,0,.5) inset,
+   0 1px 1px rgba(255,255,255,.1);
+}

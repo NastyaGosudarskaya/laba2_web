@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Text editor</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>	
+  <div class="before">
+	<label for="before">Text before editing:</label><br>
+	<textarea id="before"></textarea>
+  </div>
+  <div class="after">
+	<label for="after">Text after editing:</label><br>
+	<textarea id="after" readonly></textarea>
+  </div>
+  <div class="wrap_for_properties">
+	<a href="#on" id="bold" class="button sep" style="font-weight: bold;">Ж</a> 
+	<a href="#on" id="cursive" class="button sep" style="font-style: italic;">К</a> 
+	<a href="#on" id="underline" class="button sep" style="text-decoration: underline;" >Ч</a>
+	<a href="#on" id="up" class="button sep">A</a>
+	<a href="#on" id="down" class="button sep">a</a>
+	<div class="color">
+		<a href="#on" id="red" class="button red color_but" ></a>
+		<a href="#on" id="green" class="button green color_but"></a>
+		<a href="#on" id="blue" class="button blue color_but"></a>
+		<a href="#on" id="yellow" class="button yellow color_but"></a>
+	</div>
+	<a href="#" class="button2">Применить</a>
+  </div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
