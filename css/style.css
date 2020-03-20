@@ -38,11 +38,7 @@ a.button{
   border-radius: 5px;
   box-shadow: 0 0 0 1px #ddd inset, 0 1px 1px #fff;
 }
-a.sep:hover {
-  background: #dcdcdc linear-gradient(#fff, #dcdcdc);
-  box-shadow: 0 0 0 1px #aaa inset, 0 1px 1px #aaa;
-}
-a.color_but:hover {
+a.button:hover {
   opacity: .5;
   box-shadow: 0 0 0 1px #aaa inset, 0 1px 1px #aaa;
 }

@@ -9,7 +9,7 @@ if(typeof(Worker) !== "undefined") {
     if(typeof(w) == "undefined") {
       w = new Worker("./js/worker.js");
     }
-    text.onkeypress= function (){
+    text.onkeydown= function (event){
         w.postMessage(text.value);
     }
     w.onmessage = function(event) {  
